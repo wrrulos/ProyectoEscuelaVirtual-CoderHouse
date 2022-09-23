@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% if tipo_de_busqueda == "correo_usuarios" %}
+    <p>Resultados de la busqueda del correo: {{busqueda}}</p>
+
+    {% for resultado in resultados %}
+        <ul>
+            <li>
+                ID: {{resultado.id}}
+            </li>
+            <ul>
+                <li>Username: {{resultado.username}}</li>
+                <li>Nombre: {{resultado.nombre}}</li>
+                <li>Apellido: {{resultado.apellido}}</li>
+                <li>Edad: {{resultado.edad}}</li>
+                <li>Correo: <u>{{resultado.correo}}</u></li>
+                <li>Registro: {{resultado.registro}}</li>
+    
+            </ul>
+        </ul>
+        
+    {% endfor %}
+    {% endif %}
+
+    {% if tipo_de_busqueda == "correo_profesor" %}
+    <p>Resultados de la busqueda del username: {{busqueda}}</p>
+
+    {% for resultado in resultados %}
+        <ul>
+            <li>
+                ID: {{resultado.id}}
+            </li>
+            <ul>
+                <li>Username: {{resultado.username}}</li>
+                <li>Nombre: {{resultado.nombre}}</li>
+                <li>Apellido: {{resultado.apellido}}</li>
+                <li>Edad: {{resultado.edad}}</li>
+                <li>Correo: <u>{{resultado.correo}}</u></li>
+                <li>Registro: {{resultado.registro}}</li>
+    
+            </ul>
+        </ul>
+        
+    {% endfor %}
+    {% endif %}
+    
+</body>
+</html>
