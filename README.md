@@ -13,7 +13,7 @@ No hay que seguir si o si este orden para probar las funciones de las paginas, p
 
 * Ir a la pagina principal (http://127.0.0.1:8000/AppEscuela/)
 * Clic en 'Editar Usuarios'
-* Clic en 'Crear usuario'
+* Clic en 'Crear un usuario'
 * Ingresar los datos solicitados. (Abajo hay un ejemplo)
 * Si los datos son correctos serás enviado a la pagina de inicio.
 <img src="https://imgur.com/vlP1j2b.png">
@@ -30,3 +30,14 @@ No hay que seguir si o si este orden para probar las funciones de las paginas, p
 <img src="https://imgur.com/JqTiCBh.png">
 <img src="https://imgur.com/EjmMvg5.png">
 <img src="https://imgur.com/35iYl4k.png">
+
+# Crear un Usuario para un Profesor
+
+* Ir a la pagina principal (http://127.0.0.1:8000/AppEscuela/)
+* Clic en 'Editar Profesores'
+* Clic en 'Crear un usuario'
+* Ingresar los datos solicitados. (Abajo hay un ejemplo)
+* Si los datos son correctos serás enviado a la pagina de inicio.
+<img src="https://imgur.com/NvNdGmn.png">
+<img src="https://imgur.com/kkwyfBC.png">
+<img src="https://imgur.com/82DGv5m.png">
