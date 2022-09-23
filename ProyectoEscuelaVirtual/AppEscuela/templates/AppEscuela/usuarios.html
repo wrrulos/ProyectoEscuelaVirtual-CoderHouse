@@ -1,0 +1,16 @@
+{% extends "AppEscuela/padre.html" %}
+
+{% load static %}
+
+{% block titulo %}
+                    
+<div class="col-lg-8 align-self-end">
+    <h1 class="text-white font-weight-bold">Administrador de Usuarios</h1>
+    <hr class="divider" />
+</div>
+<div class="col-lg-8 align-self-baseline">
+    <p class="text-white-75 mb-5">En esta pagina podras crear nuevos usuarios o buscar uno ya existente.</p>
+    <a class="btn btn-primary btn-xl" href="{% url 'Formulario1' %}">Crear un usuario</a>
+    <a class="btn btn-primary btn-xl" href="{% url 'BuscarUsuarios' %}">Buscar un usuario</a>
+</div>
+{% endblock %}
