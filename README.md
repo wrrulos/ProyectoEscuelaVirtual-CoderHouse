@@ -26,5 +26,7 @@ No hay que seguir si o si este orden para probar las funciones de las paginas, p
 * Clic en 'Buscar usuario'
 * Ingresar un correo de un usuario o caracteres que se incluyan en alguno de los correos.
 * Si los datos son correctos te mostraran los datos de los usuarios.
+<img src="https://imgur.com/vlP1j2b.png">
+<img src="https://imgur.com/JqTiCBh.png">
 <img src="https://imgur.com/EjmMvg5.png">
-<img src="https://imgur.com/35iYl4k">
+<img src="https://imgur.com/35iYl4k.png">
